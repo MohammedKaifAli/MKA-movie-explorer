@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: #002;
+    padding: 16px 10px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    align-items: center;
+    color: rgb(122, 126, 113);
+}
+
+.nav-logo h1{
+    color: rgb(31, 30, 30);
+}
+
+.nav-button{
+    display: flex;
+    gap: 12px;
+}
+
+.nav-btn{
+    padding: 10px 25px;
+    border: none;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.btn-favourite{
+    background-color: rgba(199, 126, 225, 0.426);
+    color: white;
+}
+
+.btn-cart{
+    background-color: rgba(137, 43, 226, 0.408);
+    color: white;
+}
+
+.btn-login{
+    background-color: rgba(83, 109, 83, 0.468);
+    color: white;
+    margin-left: 10px;
+}
+
+.search-bar{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 20;
+}
+
+.search-bar input{
+    padding:  10px 16px;
+    border: 2px solid #555;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 350px;
+    font-size: 16px;
+    outline: none;
+    background-color: #4332326c;
+    color: white;
+}
