@@ -74,18 +74,9 @@ npx json-server --watch db.json --port 3000
 
 ---
 
-## 🆕 Recent Updates
-
-* ✅ Fixed Favourite API issue
-* ✅ Improved Navbar UI alignment
-* ✅ Added dynamic user icon after login
-* ✅ Better error handling
-
----
-
 ## 📸 Screenshots
 
-(Add your project screenshots here)
+
 
 ---
 
