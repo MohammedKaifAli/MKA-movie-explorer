@@ -11,14 +11,8 @@
     top: 0;
     z-index: 1000;
     align-items: center;
-    
 }
-.nav-actions{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-#nav-logo h1{
+.nav-logo h1{
     color: white;
 }
 .nav-button{

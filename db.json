@@ -121,50 +121,8 @@
       "year": 2022
     }
   ],
-  "cart": [
-    {
-      "id": "15",
-      "title": "Black Panther: Wakanda Forever",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",
-      "Category": "Action",
-      "rating": 8,
-      "year": 2022
-    },
-    {
-      "id": "2",
-      "title": "The Dark Knight Returns",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/e/e9/Batman_The_Dark_Knight_Returns_%28film%29.jpg",
-      "Category": "Action",
-      "rating": 9.5,
-      "year": 2024
-    },
-    {
-      "id": "6",
-      "title": "Barbie",
-      "poster": "https://i.pinimg.com/736x/ba/99/5e/ba995e7dd1b86651ac5ece64cefb521a.jpg",
-      "Category": "Comedy",
-      "rating": 7.8,
-      "year": 2023
-    },
-    {
-      "id": "1",
-      "title": "Mission Impossible – The Final Reckoning",
-      "poster": "https://media5.bollywoodhungama.in/wp-content/uploads/2025/04/Mission-Impossible-%E2%80%93-The-Final-Reckoning.jpg",
-      "Category": "Action",
-      "rating": 9,
-      "year": 2025
-    }
-  ],
-  "favourites": [
-    {
-      "id": "19",
-      "title": "The Marvels",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",
-      "Category": "Action",
-      "rating": 7.2,
-      "year": 2023
-    }
-  ],
+  "cart": [],
+  "favourites": [],
   "users": [
     {
       "id": "da30",

@@ -83,6 +83,23 @@ try{
 }
 
 
+async function handleFavourite(movie){
+    console.log(movie)
+try{
+     let response= await fetch("http://localhost:3000/favourite",{
+        method:"POST",
+         headers: {
+                'Content-Type': 'application/json', 
+            },
+         body:JSON.stringify(movie)
+    });
+    alert("Movie Added to Favourite")
+}catch(err){
+    console.log(err)
+}
+}
+
+
  function displayMovies(movies=allMovies){
     if(!movieContainer){
         console.log("Movies container is missing")
@@ -106,7 +123,7 @@ try{
  <div class="movie-rating">⭐${movie.rating}</div>
  <div class="movie-buttons">
     <button class="nav-btn btn-cart" onclick='handleCart(${JSON.stringify(movie)})'>Cart</button>
-    <button class="nav-btn btn-favourite">❤️Favourite</button>
+    <button class="nav-btn btn-favourite" onclick='handleFavourite(${JSON.stringify(movie)})'>❤️Favourite</button>
  </div>
  </div>
 `
@@ -123,9 +140,11 @@ try{
 
 const loggedInUser=JSON.parse(localStorage.getItem("loggedInUser"));
 
+const navlogo=document.getElementById("nav-logo");
+
 const authSection=document.getElementById("auth-section");
 if(loggedInUser){
-   authSection.innerHTML=`<span class="user-name">Welcome ${loggedInUser.name}</span>
+   authSection.innerHTML=`
    <button class="nav-btn btn-logout" onClick="Logout()">Logout</button>` 
 }
 

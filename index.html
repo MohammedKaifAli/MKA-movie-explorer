@@ -8,23 +8,28 @@
   </head>
   <body>
     <nav class="navbar">
-      <div class="nav-logo">
+      <div id="nav-logo">
         <h1>Movies🎥</h1>
       </div>
       <div class="search-bar">
         <input type="text" id="search-input" placeholder="Search Movies..." />
       </div>
-      <div class="nav-button">
-        <button class="btn-favourite nav-btn">Favourite</button>
-        <a href="./cart/cart.html">
-          <button class="nav-btn btn-cart">Cart</button></a
-        >
-      </div>
-      <div id="auth-section">
-        <a href="./Authentication/login.html"
-          ><button class="nav-btn btn-login">Login</button></a
-        >
-      </div>
+      <div class="nav-actions">
+  <div class="nav-button">
+    <a href="./favourite/favourite.html">
+      <button class="btn-favourite nav-btn">Favourite</button>
+    </a>
+    <a href="./cart/cart.html">
+      <button class="nav-btn btn-cart">Cart</button>
+    </a>
+  </div>
+
+  <div id="auth-section">
+    <a href="./Aunthentication/login.html">
+      <button class="nav-btn btn-login">Login</button>
+    </a>
+  </div>
+</div>
     </nav>
     <!-- Carousal -->
     <section class="carousal-section" id="home">
