@@ -1,34 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movies App</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="navlogo">
-            <h1>MKA Movies🎥</h1>
-        </div>
-
-        <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Search Movie.....">
-        </div>
-
-        <div class="nav-button">
-            <a href="favourite.html"><button class="btn-favourite nav-btn">Favourite</button></a>
-            <a href="cart.html"><button class="nav-btn btn-cart">Cart</button></a>
-        </div>
-
-        <div id="auth-section">
-            <a href="Aunthentication/login.html"><button class="nav-btn btn-login">Login</button></a>
-        </div>
+      <div class="nav-logo">
+        <h1>Movies🎥</h1>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search Movies..." />
+      </div>
+      <div class="nav-button">
+        <button class="btn-favourite nav-btn">Favourite</button>
+        <a href="./cart/cart.html">
+          <button class="nav-btn btn-cart">Cart</button></a
+        >
+      </div>
+      <div id="auth-section">
+        <a href="./Authentication/login.html"
+          ><button class="nav-btn btn-login">Login</button></a
+        >
+      </div>
     </nav>
-
-
+    <!-- Carousal -->
+    <section class="carousal-section" id="home">
+      <div class="carousal-container" id="carousal-container">
+        <!-- Carousal Slides -->
+     
+      </div>
+      <button class="prev carousal-btn" onclick="changeSlide(-1)">Prev</button>
+      <button class="carousal-btn next" onclick="changeSlide(+1)">Next</button>
+    </section>
+    <!-- Movies Container -->
+    <section class="movie-section">
+      <div class="container">
+        <h2>All Movies</h2>
+        <div id="movies-container">
+          <!-- Cards -->
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2026 Video-Stream-App All rights reserved.</p>
+    </footer>
 
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>

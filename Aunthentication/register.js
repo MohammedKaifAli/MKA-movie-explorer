@@ -8,7 +8,7 @@ document.getElementById("register-form").addEventListener("submit",async(e)=>{
         let userresponse=await fetch("http://localhost:3000/users");
         let data=await userresponse.json();
 
-        existinguisher=data.find(userresponse.user.email==email);
+        existinguisher=data.find(user=>user.email==email);
         if(existinguisher){
             window.location.href="login.html";
             aletr("User already registered")
