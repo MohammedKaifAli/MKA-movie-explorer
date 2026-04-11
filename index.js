@@ -86,7 +86,7 @@ try{
 async function handleFavourite(movie){
     console.log(movie)
 try{
-     let response= await fetch("http://localhost:3000/favourite",{
+     let response= await fetch("http://localhost:3000/favourites",{
         method:"POST",
          headers: {
                 'Content-Type': 'application/json', 
